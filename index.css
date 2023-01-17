@@ -20,9 +20,9 @@ nav {
   align-items: center;
   padding: 10px 20px;
   height: 280px;
-  width: 900px;
+  width: 800px;
   border-radius: 10px;
-  background: #003b49;
+  background: #F5C4D1;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 20px -5px;
 }
 
@@ -44,22 +44,22 @@ nav {
   text-align: center;
   user-select: none;
   cursor: pointer;
-  margin: 0 30px;
-  border: 2px solid #f2c75c;
+  margin: 50px;
+  border: 3px solid #39322D;
   overflow: hidden;
 }
 
 .item a {
   font-size: 24px;
   text-transform: uppercase;
-  color: #f2c75c;
+  color: #39322D;
   z-index: 10;
   text-decoration: none;
   transition: color 200ms ease;
 }
 
 .item:hover a {
-  color: #003b49;
+  color: #D8B1B9;
 }
 
 .item:before {
@@ -68,7 +68,7 @@ nav {
   width: 0%;
   height: 100%;
   transform: skew(30deg);
-  background: #f2c75c;
+  background: #39322D;
   transition: width 400ms ease;
 }
 
